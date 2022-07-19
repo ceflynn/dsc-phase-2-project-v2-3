@@ -18,7 +18,7 @@ King County Housing Sales 5/2014 - 5/2015
 Zipcode and School District data from [proximityone.com](http://proximityone.com/zip-sd.htm)
 
 ## School Districts By Zipcode
-![school districts and zipcodes](images/overlay.jpg)
+![school districts and zipcodes](images/overlay.png)
 
 ## Deliverables
 * [Non-Technical Presentation]()
