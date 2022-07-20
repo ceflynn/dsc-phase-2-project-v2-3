@@ -34,8 +34,12 @@ Interpret
 
 ## Model and Regression Results
 
-## Client Questions / Answers
+R-Squarred .795  
+P-Values of predictors all below our selected alpha(.005)
 
+Our Model can account for roughly 80% of the variance in housing price.
+
+## Client Questions / Answers
 ### Best Predictors of Price
 Our model suggests as one might expect that the location and the size of the home are the best positive predictors of price. It also suggest that the grade of the house plays a great factor in determining the price.
 
