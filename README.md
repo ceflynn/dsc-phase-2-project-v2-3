@@ -21,7 +21,7 @@ Zipcode and School District data from [proximityone.com](http://proximityone.com
 ![school districts and zipcodes](images/overlay.png)
 
 ## Deliverables
-* [Non-Technical Presentation]()
+* [Non-Technical Presentation](https://github.com/ceflynn/dsc-phase-2-project-v2-3/blob/main/pdf/King%20County%20Washington.pdf)
 * [GitHub Repository](https://github.com/ceflynn/dsc-phase-2-project-v2-3)
 * [Jupyter Notebook](https://github.com/ceflynn/dsc-phase-2-project-v2-3/blob/main/student.ipynb)
 
@@ -33,6 +33,9 @@ Model
 Interpret
 
 ## Model and Regression Results
+
+OLS Model - Ordinar Least Squares Regression
+
 
 R-Squarred .795  
 P-Values of predictors all below our selected alpha(.005)
@@ -82,27 +85,4 @@ Snoqualmie Valley, Vashon Island,Riverview,Shoreline, Renton, Tahoma, Enumclaw, 
 
 These districts were in the middle of both of our coefficient rankings and home value rankings.
 
-## Repository
-
-* data
-    * column_names.md
-    * kc_house_data.csv
-    * sd_freq_for_zipcode.csv
-    * zip_sds.csv
-    *zipcodeSchoolDist.csv
-* images
-    * halfway-there.gif
-    * overlay.png
-    * pairplot_kc_contdf.png
-    * pairplot_kc_df.png
-    * SCHDST.jpg
-    * zipcodesgif.gif
-* pdf
-    * presentation.pdf
-* student.ipynb
-* CONTRIBUTING.md
-* Instructions.md
-* LICENSE.md
-* ProjectInstructions.md
-* README.md
  
