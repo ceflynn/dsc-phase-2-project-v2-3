@@ -37,51 +37,43 @@ Interpret
 OLS Model - Ordinar Least Squares Regression
 
 
-R-Squarred .795  
+R-Squarred .757  
 P-Values of predictors all below our selected alpha(.005)
 
-Our Model can account for roughly 80% of the variance in housing price.
+Our Model can account for roughly 76% of the variance in housing price.
 
 ## Client Questions / Answers
 ### Best Predictors of Price
-Our model suggests as one might expect that the location and the size of the home are the best positive predictors of price. It also suggest that the grade of the house plays a great factor in determining the price.
+quare Footage 3% for each additional 100 sq ft Bathrooms 5% for each additional Bathroom Floors 7% for each additional Floor
 
-From King County Assesors:
-
-"Classification by construction quality which refers to the types of materials used and the quality of workmanship. Buildings of better quality (higher grade) cost more to build per unit of measure and command higher value. (See Glossary in Area Report for Residential Building Grades in use by the King County Department of Assessments.)"""<
-
-https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r#g
-
-A grade of 13_Mansion is one of our top positive predictors. But there is only one house included.
-
-grades 4-7 are amoung our top negative price predictors. These all roughly deal with the quality of the build.
+Non School District Categoric Predictors Being on the waterfront adds 37%
+Having an view_EXCELLENT 16%
 
 ### How School District Affects Pricte
 
-School districts ranked very high in our models coefficient list.  They are a primary factor.  School Districts listed below:
-
-Mercer Island: 0.8295
-Bellevue 0.735009
-Seattle: 0.6466
-Lake Washington: 0.6031
-Issaquah: 0.5215
-Northshore: 0.4527
-Shoreline: 0.4442
-Snoqualmie Valley: 0.4052
-Riverview: 0.3948
-Vashon Island: 0.3626
-Renton: 0.2861
-Tahoma: 0.2024
-Highline: 0.1706
-Enumclaw: 0.1166
-Tukwila: 0.1017
-Kent: 0.0924
-
-Mercer Island had the highest coefficient in the model. 
+Mercer Island 90%
+Bellevue 79%
+Lake Washington: 63%
+Seattle: 62%
+Issaquah: 54%
+Northshore: 47%
+Shoreline: 43%
+Snoqualmie Valley: 36%
+Riverview: 32%
+Vashon Island: 30%
+Renton: 25%
+Tahoma: 15%
+Highline: 13%
+Kent 7%
+Enumclaw: 0
+Tukwila: 0
+Federeal Way: 0
+Fife: 0
+Auburn: 0 baseline district
 
 ### Which Districts to Target
 
-Snoqualmie Valley, Vashon Island,Riverview,Shoreline, Renton, Tahoma, Enumclaw, Highline 
+Snoqualmie Valley, Vashon Island,Riverview,Shoreline, Renton
 
 These districts were in the middle of both of our coefficient rankings and home value rankings.
 
