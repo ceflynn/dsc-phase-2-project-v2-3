@@ -44,7 +44,7 @@ Our Model can account for roughly 76% of the variance in housing price.
 
 ## Client Questions / Answers
 ### Best Predictors of Price
-quare Footage 3% for each additional 100 sq ft Bathrooms 5% for each additional Bathroom Floors 7% for each additional Floor
+Square Footage 3% for each additional 100 sq ft Bathrooms 5% for each additional Bathroom Floors 7% for each additional Floor
 
 Non School District Categoric Predictors Being on the waterfront adds 37%
 Having an view_EXCELLENT 16%
